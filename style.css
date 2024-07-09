@@ -156,6 +156,58 @@
     }
 
 
+      /* day information section*/
+      .day-information{
+        width: 1056px;
+        height: 385px;
+        border-radius: 16px;
+        background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+        margin: 0 auto;
+        margin-bottom: 96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .day-information-content{
+        width: 439px;
+        height: 217px;
+        text-align: center;
+      }
+      .day-information-content p{
+        font-family: Inter;
+        font-size: 25.6px;
+        font-weight: 600;
+        line-height: 44.8px;
+        text-transform: capitalize;
+      }
+      .day-information-content span{
+        color: red;
+      }
+      .day-information-content .p-three{
+        text-align: left;
+        margin-bottom: 83px;
+      }
+      .day-information-content .btn{
+        
+        text-align: center;
+        
+      }
+      .day-information-content .btn button{
+        border-radius: 8px;
+        background: rgb(255, 0, 0);
+        padding: 12px 25px 12px 25px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        cursor: pointer;
+        border: none;
+
+      }
+
+
+
 
 
 
